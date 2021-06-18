@@ -1,0 +1,125 @@
+@charset"UTF-8";
+@import url(style_Reset.css);
+
+div#wrap {
+    width: 1015px;
+    margin: 0 auto;
+}
+
+div#main {
+    width: 815px;
+}
+
+div#gnbMenu {
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div#gnbMenu li {
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #d7ebf2;
+    border: 1px solid #000;
+}
+
+div#gnb :not(:last-child) {
+    border-bottom: none;
+}
+
+#headerImg {
+    padding: 15px 0px;
+}
+#slide{
+    position: relative;
+    z-index: 3;
+}
+#valleyRock{
+    width: 400px;
+    height: 65px;
+    border-radius: 15px;
+    font-size: 23px;
+    line-height: 65px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+
+}
+
+#contents {
+    margin: 15px 10px 10px 0;
+}
+
+#contents button {
+    padding: 5px 8px;
+    margin-left: 25px;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #cfcfcf;
+    background-color: #eee;
+    border-bottom: #eee;
+    position: relative;
+    top: 1px;
+}
+
+#contents table {
+    width: 295px;
+    height: 150px;
+    padding: 2px;
+    border: 1px solid #cfcfcf;
+}
+#notice{
+    padding: 0;
+    margin: 0;
+}
+
+#contents #contentsImg {
+    width: 180px;
+    height: 160px;
+    padding-top: 25px;
+}
+
+#notice td {
+    font-size: 15px;
+}
+
+#footer {
+    height: 100px;
+    align-items: center;
+    padding-right: 26px;
+}
+#footerContents{
+    width: 600px;
+    padding: 0;
+    margin: 0 10px 0 0;
+    align-items: center;
+}
+
+.footerImg {
+    width: 160px;
+    height: 30px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+#footer p:nth-child(1) {
+    font-style: italic;
+    padding-bottom: 12px;
+}
+
+#footer #dropDown {
+    height: 30px;
+    font-size: 20px;
+    align-content: center;
+}

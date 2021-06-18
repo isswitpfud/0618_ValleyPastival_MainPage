@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>layout구현</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div id="wrap" class="flexContainer">
+            <div id="gnbMenu">
+                <header id="headerImg">
+                    <img src="images/Logo_header_01_160x32.png" alt="헤더로고">
+                </header>
+                <div id="gnb">
+                    <ul class="gnbulMenu">
+                        <li class="gnbliMenu"><a href="#">
+                                축제소개
+                            </a></li>
+                        <li class="gnbliMenu"><a href="#">
+                                예약안내
+                            </a></li>
+                        <li class="gnbliMenu"><a href="#">
+                                아티스트
+                            </a></li>
+                        <li class="gnbliMenu"><a href="#">
+                                커뮤니티
+                            </a></li>
+                    </ul>
+                </div> <!-- #gnb-->
+            </div> <!-- #gnbMenu -->
+            <main id="main">
+                <div id="slide">
+                    <img src="images/slideImg_01.jpg" alt="슬라이드이미지">
+                    <div id="valleyRock">
+                        VELLEY ROCK 폐막식
+                    </div>
+                </div> <!-- slide -->
+                <div id="contents" class="flexContainer">
+                    <div id="notice">
+                        <button id="noticeBtn">
+                            공지사항
+                        </button>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>남도여수 밸리락페 개막</td>
+                                    <td>2019.05.10</td>
+                                </tr>
+                                <tr>
+                                    <td>Valley Rock Festival 입장권</td>
+                                    <td>2019.05.10</td>
+                                </tr>
+                                <tr>
+                                    <td>[이벤트발표] 사연 당첨</td>
+                                    <td>2019.04.12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> <!-- notice -->
+
+                    <div id="gallery">
+                        <button id="galleryBtn">갤러리</button>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><img src="images/gallery_01_90x90.jpg" alt="갤러리이미지01"></td>
+                                    <td><img src="images/gallery_02_90x90.jpg" alt="갤러리이미지02"></td>
+                                    <td><img src="images/gallery_03_90x90.jpg" alt="갤러리이미지03"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> <!-- gallery -->
+
+                    <img src="images/shortcut_180x120.png" alt="shortcutImg" id="contentsImg">
+                </div>
+                <!--contents-->
+                <footer id="footer" class="flexContainer">
+                    <div id="footerContents" class="flexContainer">
+                        <img src="images/Logo_footer_01_160x32.png" alt="푸터이미지" class="footerImg">
+                        <div id="footerArticle">
+                            <p>
+                                서울시 영등포구 당산2가 이화빌딩 타아이에스 2층
+                            </p>
+                            <p>
+                                copyright(c) 2010 Busan Infrasture Coporation. <br> ball right reserd
+                            </p>
+                        </div> <!-- footerArticle -->
+                    </div>
+                    <select id="dropDown" name="browsers">
+                        <option value="instagram">instagram</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="twitter">twitter</option>
+                    </select> <!-- #dropdown -->
+                </footer>
+            </main> <!-- main#main -->
+    </div> <!-- div#wrap -->
+
+
+</body></html>
