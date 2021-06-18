@@ -2,7 +2,6 @@
 @import url(style_Reset.css);
 
 div#wrap {
-    border: 1px solid #000;
     width: 1015px;
     margin: 0 auto;
 }
@@ -29,7 +28,7 @@ div#gnbMenu li {
 }
 
 div#gnb :not(:last-child) {
-    border-bottom: none;
+    border-bottom: none !important;
 }
 
 #headerImg {
@@ -85,19 +84,16 @@ div#slide span{
     border: 1px solid #cfcfcf;
 
 }
-#notice{
+#notice, #gallery{
     width: 300px;
-    padding: 0;
-    margin: 0;
-}
-#gallery{
-    width: 300px;
+    padding-right: 10px;
 }
 
 #contents #contentsImg {
     width: 180px;
     height: 160px;
-    padding: 10px 5px 0 0 ;
+    padding-top: 10px;
+    padding-right: 10px;
     margin: 0;
 }
 
@@ -106,32 +102,35 @@ div#slide span{
 }
 
 #footer {
+    width: 815px;
     height: 100px;
     align-items: center;
-    padding-right: 26px;
-}
-#footerContents{
-    width: 610px;
-    padding: 0;
-    margin: 0 20px 0 0;
-    align-items: center;
 }
 
-.footerImg {
-    width: 160px;
-    height: 30px;
-    padding-left: 10px;
-    margin: 0;
+
+footer a {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
 }
 
-#footer p:nth-child(1) {
+footer #componyInfo{
+    padding-top: 8px;
+    width: 411px;
+    line-height: 25px;
+}
+#footer address {
     font-style: italic;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
 }
 
-#footer #dropDown {
-    margin-left: 30px;
-    height: 30px;
+#footer #familySite {
+    width: 200px;
+    text-align: center;
+
+}
+#footer #familySite select{
     font-size: 20px;
-    align-content: center;
+    font-weight: bold;
 }
